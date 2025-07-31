@@ -11,34 +11,43 @@ Whether you're a developer looking for quick productivity hacks, a tech enthusia
 ## 🔐 Your Voice Is Your Key
 
 Drogon stays inactive until you **unlock it using a spoken password**. With a smart, voice-based authentication system, your assistant remains secure even in a shared environment — ensuring that **only your voice activates Drogon**.
+With this voice-based access control:
+  🧠 Drogon performs user verification through audio input
+  🔒 Only users who know the authorized voice command can activate the assistant
+  🗣️ It offers a hands-free, secure login experience without needing keyboard or mouse input
 
 ---
 
 ## 🔄 Working of the Project
 
 ### 🔁 Startup Phase
-- Drogon greets the user and prompts for a voice password.
-- If the correct password is spoken, Drogon is activated.
-- Incorrect attempts are counted and capped at 3, after which access is denied.
+- Drogon greets the user with a time-based welcome message and prompts for a voice password.
+- If the correct password is spoken, Drogon is activated and ready for commands.
+- Incorrect attempts are counted and capped at 3, after which access is denied to ensure security.
+- This ensures only the authorized user can activate and control Drogon.
 
-### 🧠 Command Listening Loop
-- After successful authentication, Drogon enters an infinite loop to listen for voice commands.
+### 🧠 Command Listening Loop 
+- After successful authentication, Drogon enters an infinite loop where it continuously listens for voice commands.
+- Each voice input is processed and matched against supported commands in real-time
 
 ### 🧾 Command Handling
 Based on keywords (like `"Wikipedia"`, `"search"`, `"joke"`, etc.), Drogon performs specific actions:
-- Opens web pages  
-- Plays media  
-- Fetches search results  
-- Sends emails  
-- Tells time  
-- Executes system commands like shutdown or exit  
+- Opens web pages (YouTube, Google, Amazon, Flipkart, etc.)
+- Plays media (music from PC, YouTube, Spotify)
+- Fetches search results via Google Custom Search API or Wikipedia
+- Sends emails to predefined contacts using SMTP
+- Tells the current time using system clock
+- Executes system commands like shutdown, open VS Code, or open drives
+- Drogon responds verbally to confirm every action it performs.
+
+
 
 ### ✅ Task Completion
 - Once a task is completed, Drogon ends the command loop for that session unless exited manually.
 
 ### 📴 Exit
-- On commands like `"exit"` or `"quit Drogon"`, the assistant shuts down gracefully with a farewell message.
-
+- On voice commands like `"exit"` or `"quit Drogon"`, the assistant shuts down gracefully with a goodbye message.
+- This allows users to end the session naturally, maintaining a smooth user experience.
 ---
 
 ## 🧠 What Drogon Can Do (So Far!)
