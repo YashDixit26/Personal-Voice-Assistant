@@ -82,12 +82,6 @@ Based on keywords (like `"Wikipedia"`, `"search"`, `"joke"`, etc.), Drogon perfo
 
 ---
 
-## 📂 Project Status
-
-🚧 _Actively improving: More commands, AI enhancements, and smarter voice logic are under development._
-
----
-
 ## 👨‍💻 Developed by
 **Yash Dixit** — _Turning everyday desktops into voice-powered machines._
 
