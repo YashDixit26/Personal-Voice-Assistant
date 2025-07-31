@@ -4,7 +4,7 @@
 
 Drogon is not just another Python script — it’s your intelligent, voice-activated **desktop companion**, designed to simplify your digital life. From browsing the web to sending emails, from playing your favorite songs to telling you a joke when you’re bored — **Drogon listens, understands, and acts** on your spoken commands in real time.
 
-Whether you're a developer looking for quick productivity hacks, a tech enthusiast, or someone who simply wants a smarter way to interact with their PC — **Drogon is built for you**.
+Whether you're a developer looking for quick productivity hacks, a tech enthusiast, or someone who simply wants a smarter way to interact with their PC — **Drogon is built for you by Yash Dixit**.
 
 ---
 
