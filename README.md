@@ -12,9 +12,9 @@ Whether you're a developer looking for quick productivity hacks, a tech enthusia
 
 Drogon stays inactive until you **unlock it using a spoken password**. With a smart, voice-based authentication system, your assistant remains secure even in a shared environment — ensuring that **only your voice activates Drogon**.
 With this voice-based access control:
-  🧠 Drogon performs user verification through audio input
-  🔒 Only users who know the authorized voice command can activate the assistant
-  🗣️ It offers a hands-free, secure login experience without needing keyboard or mouse input
+- 🧠 Drogon performs user verification through audio input
+- 🔒 Only users who know the authorized voice command can activate the assistant
+- 🗣️ It offers a hands-free, secure login experience without needing keyboard or mouse input
 
 ---
 
