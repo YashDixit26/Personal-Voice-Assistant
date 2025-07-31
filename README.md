@@ -43,19 +43,19 @@ Based on keywords (like `"Wikipedia"`, `"search"`, `"joke"`, etc.), Drogon perfo
 
 ## 🧠 What Drogon Can Do (So Far!)
 
-- ✅ Understand voice commands using Google’s Speech API  
-- ✅ Speak back to you using human-like text-to-speech  
-- ✅ Secure itself with a voice-based password system  
-- ✅ Greet you based on the time of day  
-- ✅ Search topics on Wikipedia and summarize them  
-- ✅ Perform browser searches using Google or Bing  
-- ✅ Fetch and read out custom search results using Google API  
-- ✅ Tell you a joke when you need a laugh  
-- ✅ Play music from YouTube, Spotify, or even your local PC  
-- ✅ Send emails with your voice using SMTP  
-- ✅ Tell you the current time  
-- ✅ Open frequently used websites and applications  
-- ✅ Even shut down your computer on command  
+✅ Understand voice commands using Google’s Speech API  
+✅ Speak back to you using human-like text-to-speech  
+✅ Secure itself with a voice-based password system  
+✅ Greet you based on the time of day  
+✅ Search topics on Wikipedia and summarize them  
+✅ Perform browser searches using Google or Bing  
+✅ Fetch and read out custom search results using Google API  
+✅ Tell you a joke when you need a laugh  
+✅ Play music from YouTube, Spotify, or even your local PC  
+✅ Send emails with your voice using SMTP  
+✅ Tell you the current time  
+✅ Open frequently used websites and applications  
+✅ Even shut down your computer on command  
 
 ---
 
