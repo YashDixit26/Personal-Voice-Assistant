@@ -14,7 +14,7 @@ VOICE_PASSWORD = "beautiful"  # Change this to your desired password
 API_KEY = ''  # Your Google Custom Search API key
 SEARCH_ENGINE_ID = ''  # Your Custom Search Engine ID
 EMAIL_ADDRESS = 'youremail@gmail.com' # Your email address for sending emails
-EMAIL_PASSWORD = 'your-password-here' # Your email password
+EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")  # Securely load email password from environment variable
 MUSIC_DIR = "C:\\Users\\dixit\\Music\\my music" # Directory path for music files
 VS_CODE_PATH = "C:\\Users\\dixit\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" # Path to VS Code executable
 
@@ -184,10 +184,14 @@ if __name__ == "__main__":
                 # ===== PLAY MUSIC FROM LOCAL COMPUTER DIRECTORY =====
                 elif 'play music on computer' in query:
                     songs = os.listdir(MUSIC_DIR)  # List all files in the specified music directory
-                    print(songs)  # Output the list of music files to the console
-                    os.startfile(os.path.join(MUSIC_DIR, songs[0]))  # Play the first song in the directory
+                    if songs:  # Check if any songs exist
+                       os.startfile(os.path.join(MUSIC_DIR, songs[0]))  # Play the first song
+                       speak("Playing music from your computer.")
+                    else:
+                       speak("No songs found in your music folder.")  # Handle empty folder
                     task = 1
                     break
+
 
                 # ===== PERFORM A GOOGLE CUSTOM SEARCH =====
                 elif 'search' in query:
@@ -297,4 +301,5 @@ if __name__ == "__main__":
                 # Third failed attempt - lockout triggered
                 speak("Access denied.Goodbye.")
             i += 1  # Increment the failed attempts counter
+
 
